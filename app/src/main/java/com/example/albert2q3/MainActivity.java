@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         if (counter == 6)
         {
             counter = 0;
-            btn.setText("Enough to click. Go to new start!");
+            btn.setText("Enough to click. Go to new start! ");
         }
         else btn.setText("This is click number "+counter);
     }
